@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72504ad6-99b6-4dfd-b41e-94349483927d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/__tests__/timerQueue.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__tests__/useTimer.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +38,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Jest.Queue.executor": "Run",
+    "Jest.TimerQueue.executor": "Run",
+    "Jest.TimerQueue.should be able indicate if there are more timer intervals.executor": "Run",
+    "Jest.TimerQueue.should be able to move to the next timer interval.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Programming/Web/Personal/usetimer",
@@ -40,6 +49,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "C:/Programming/Web/Personal/usetimer/node_modules/jest",
     "nodejs_package_manager_path": "pnpm",
     "npm.dev.executor": "Run",
     "ts.external.directory.path": "C:\\Programming\\Web\\Personal\\usetimer\\node_modules\\typescript\\lib",
@@ -51,7 +61,57 @@
       <recent name="C:\Programming\Web\Personal\usetimer\src\types" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.TimerQueue.should be able indicate if there are more timer intervals">
+    <configuration name="Queue" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/queue.test.ts" />
+      <test-names>
+        <test-name value="Queue" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="TimerQueue" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/timerQueue.test.ts" />
+      <test-names>
+        <test-name value="TimerQueue" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="TimerQueue.should be able indicate if there are more timer intervals" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/timerQueue.test.ts" />
+      <test-names>
+        <test-name value="TimerQueue" />
+        <test-name value="should be able indicate if there are more timer intervals" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="TimerQueue.should be able to move to the next timer interval" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/timerQueue.test.ts" />
+      <test-names>
+        <test-name value="TimerQueue" />
+        <test-name value="should be able to move to the next timer interval" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -64,6 +124,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.TimerQueue.should be able indicate if there are more timer intervals" />
+        <item itemvalue="Jest.TimerQueue.should be able to move to the next timer interval" />
+        <item itemvalue="Jest.TimerQueue" />
+        <item itemvalue="Jest.Queue" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
@@ -85,7 +149,7 @@
       <updated>1736953377498</updated>
       <workItem from="1736953378702" duration="322000" />
       <workItem from="1736953718656" duration="53000" />
-      <workItem from="1736953773510" duration="2227000" />
+      <workItem from="1736953773510" duration="6817000" />
     </task>
     <servers />
   </component>

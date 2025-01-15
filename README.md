@@ -171,12 +171,6 @@ const {
 
 ---
 
-## Contributing
-
-Since this module is specific to your project, improvements and contributions can follow internal team processes. Create issues or submit pull requests to propose updates or fixes.
-
----
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
